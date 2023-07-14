@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/spreact/static/css/main.2f9e69e5.css",
+    "main.js": "/spreact/static/js/main.78e8ab24.js",
+    "static/js/787.dd590972.chunk.js": "/spreact/static/js/787.dd590972.chunk.js",
+    "static/media/2.jpg": "/spreact/static/media/2.78e200f597620bcbe634.jpg",
+    "static/media/c2.jpg": "/spreact/static/media/c2.9d2ce0c1db3701a6484b.jpg",
+    "static/media/4.jpg": "/spreact/static/media/4.0e883876fbd7879baca9.jpg",
+    "static/media/1.jpg": "/spreact/static/media/1.c3d72abbcb6c36bdded2.jpg",
+    "static/media/c3.jpg": "/spreact/static/media/c3.53216fdac910d0010c94.jpg",
+    "static/media/5.jpg": "/spreact/static/media/5.0fcfc0be7f0b7c1760d8.jpg",
+    "static/media/6.jpg": "/spreact/static/media/6.2381bcf9fbfa25715419.jpg",
+    "static/media/3.jpg": "/spreact/static/media/3.e24cdaf74f55bad97ef0.jpg",
+    "static/media/c1.jpg": "/spreact/static/media/c1.c5709b109c0c8547b8ab.jpg",
+    "static/media/beach.jpg": "/spreact/static/media/beach.afee7fdba2403753188e.jpg",
+    "static/media/cons.jpg": "/spreact/static/media/cons.1ae9f39f5846d5802d2a.jpg",
+    "static/media/sunrise-1014712_1280.jpg": "/spreact/static/media/sunrise-1014712_1280.09ba4a4864e67f5c4b3a.jpg",
+    "index.html": "/spreact/index.html",
+    "main.2f9e69e5.css.map": "/spreact/static/css/main.2f9e69e5.css.map",
+    "main.78e8ab24.js.map": "/spreact/static/js/main.78e8ab24.js.map",
+    "787.dd590972.chunk.js.map": "/spreact/static/js/787.dd590972.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f9e69e5.css",
+    "static/js/main.78e8ab24.js"
+  ]
+}
