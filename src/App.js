@@ -5,6 +5,7 @@ import Home from './routes/Home';
 import About from './routes/About';
 import Service from './routes/Service';
 import Contact from './routes/Contact';
+import Career from './routes/Career';
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
         <Route path='/about' element={<About/>} />
         <Route path='/service' element={<Service/>} />
         <Route path='/contact' element={<Contact/>} />
+        <Route path='/career' element={<Career/>} />
       </Routes>
       {/* <Navbar></Navbar> */}
     </div>

@@ -23,11 +23,16 @@ export const MenuItems =[
         cName:"nav-links",
         icon: "fa-solid fa-address-book"
     },
-    
     {
-        title:"Sign-Up",
-        url:"/signup",
-        cName:"nav-links-mobile",
-        // icon: "fa-solid fa-address-book"
+        title:"Career",
+        url:"/career",
+        cName:"nav-links",
+        icon: "fa-solid fa-user-tie"
     },
+    // {
+    //     title:"Sign-Up",
+    //     url:"/signup",
+    //     cName:"nav-links-mobile",
+    //     // icon: "fa-solid fa-address-book"
+    // },
 ]

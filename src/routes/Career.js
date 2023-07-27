@@ -1,24 +1,24 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-// this is the variable we create downside
-import AboutImg from "../assets/policeman-3856909_1280.jpg"
+import AboutImg from '../assets/business-2879489_1280.jpg'
 import Footer from "../components/Footer";
-import AboutUs from "../components/AboutUs";
+import CareerForm from "../components/CareerForm";
 
-function About(){
+function Contact(){
     return(
         <>
         <Navbar></Navbar>
         <Hero
         cName="hero-mid"
         heroImg={AboutImg}
-        title="Know About Us"
+        title="Join Us"
         btnClass="hide"
         ></Hero>
-        <AboutUs/>
+        <CareerForm/>
         <Footer/>
+
         </>
     )
 }
 
-export default About;
+export default Contact;

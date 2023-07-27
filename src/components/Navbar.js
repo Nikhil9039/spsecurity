@@ -2,6 +2,7 @@ import "./Navbar.css";
 import { Component } from "react";
 import { MenuItems } from "./MenuItems";
 import { Link } from "react-router-dom";
+import img1 from "../assets/SURYAPUTRA2.png";
 // function Navbar(){
 
 // }
@@ -17,7 +18,13 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="NavbarItems">
-        <h1 className="navbar-logo">GoTrip</h1>
+        {/* <h1 className="navbar-logo">SURYAPUTRA</h1> */}
+        {/* <img className="navbar-logo" src={img1} alt="Logo" /> */}
+        <div className="logo">
+            <img src={img1} alt="This is the logo"/>
+        </div>
+    
+        {/* <p>SECURITY SERVICES PRIVATE LIMITED</p> */}
         <div className="menu-icons" onClick={this.handleClick}>
           <i className={this.state.clicked ? "fas fa-times ":"fas fa-bars"}></i>
         </div>
@@ -31,7 +38,7 @@ class Navbar extends Component {
               </li>
             );
           })}
-          <button>Sign Up</button>
+          {/* <button>Sign Up</button> */}
         </ul>
       </nav>
     );

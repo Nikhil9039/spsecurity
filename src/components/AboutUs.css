@@ -1,9 +1,19 @@
 .about-container{
     margin: 4rem 6rem;
     text-align: start;
+    /* border: 2px solid red; */
+    background-color: aliceblue;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .25);
+    padding: 15px;
+    
 }
 .about-container h1{
     padding-bottom: 1rem;
+    color: rgb(11, 3, 51);
+    text-transform: uppercase;
+    /* text-decoration: underline; */
+
 }
 
 .about-container p{

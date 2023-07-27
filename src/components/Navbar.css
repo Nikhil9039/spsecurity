@@ -17,12 +17,27 @@
     z-index: 9999;
 }
 /* display flex for align item in a line  */
-.navbar-logo{
-    color: #222;
-    font-size: 2rem;
-    cursor: pointer;
-}
+/*  */
+/* .logo{
+    width: 100%;
+    height: 100%; 
+  }
+.logo img {
+    width: 55%;
+    height: 100%; 
+    object-fit: cover; 
+    margin-right: 200px;
+  } */
 
+.logo{
+    width: 27%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 82%;
+}
 .nav-menu{
     display: grid;
     grid-template-columns: repeat(6, auto);
@@ -80,6 +95,10 @@ button:hover{
     /* we were not able to see the logo and icon for this we will set navitem's z index at99 and nav-menu at -1 */
     .NavbarItems{
         z-index: 99;
+    }
+    .logo{
+        width: 80%;
+        
     }
     .nav-menu{
         display: flex;

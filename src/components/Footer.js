@@ -4,8 +4,8 @@ const Footer =()=>{
         <div className="footer">
             <div className="top">
                 <div>
-                    <h1>GoTrip</h1>
-                    <p>Choose Your Favourite Destination</p>
+                    <h1>Suryaputra</h1>
+                    <p>Security Services Private Limited</p>
                 </div>
                 <div>
                     <a href="/"><i className="fa-brands fa-facebook-square"></i></a>
@@ -16,18 +16,18 @@ const Footer =()=>{
             </div>
             <div className="bottom">
                 <div>
-                    <h4>Project</h4>
-                    <a href="/">Changlog</a>
-                    <a href="/">Status</a>
-                    <a href="/">License</a>
-                    <a href="/">All versions</a>
+                    <h4>Contact Details</h4>
+                    <p>Gf 08, Block-B, Mansarovar Complex, Bhopal, India</p>
+                    <p>Email: info@suryaputra.in</p>
+                    <p>Phone: +91 8962869337</p>
+
                 </div>
                 <div>
-                    <h4>Community</h4>
-                    <a href="/">Github</a>
-                    <a href="/">Issues</a>
-                    <a href="/">Projects</a>
-                    <a href="/">Twitter</a>
+                    <h4>Quick Links</h4>
+                    <a href="/">Home</a>
+                    <a href="/">About Us</a>
+                    <a href="/">Services</a>
+                    <a href="/">Career</a>
                 </div>
                 <div>
                     <h4>Help</h4>
@@ -43,7 +43,7 @@ const Footer =()=>{
                 </div>
 
             </div>
-            <div className="copyright" ><p>Copyright ©2023 Designed By <b>Nikhil Prajapati</b></p></div>
+            <div className="copyright" ><p>Copyright ©2023 Developed By <a href="https://github.com/Nikhil9039"><b>Nikhil</b></a></p></div>
         </div>
     )
 }
