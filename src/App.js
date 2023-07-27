@@ -6,9 +6,12 @@ import About from './routes/About';
 import Service from './routes/Service';
 import Contact from './routes/Contact';
 import Career from './routes/Career';
+import ScrollToTop from './ScrollToTop';
+
 function App() {
   return (
     <div className="App">
+      <ScrollToTop />
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About/>} />

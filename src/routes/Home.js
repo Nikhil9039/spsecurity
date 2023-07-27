@@ -14,9 +14,9 @@ function Home(){
         heroImg={HeroImg}
         title="Welcome to Suryaputra Security Services"
         text='"Securing Your World, Every Step of the Way"'
-        buttonText="Enquiry Now"
+        // buttonText="Enquiry Now"
         url="/contact"
-        btnClass="show"
+        // btnClass="show"
         ></Hero>
         <Destination></Destination>
         <Trip/>

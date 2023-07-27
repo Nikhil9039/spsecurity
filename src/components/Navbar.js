@@ -3,6 +3,8 @@ import { Component } from "react";
 import { MenuItems } from "./MenuItems";
 import { Link } from "react-router-dom";
 import img1 from "../assets/SURYAPUTRA2.png";
+
+
 // function Navbar(){
 
 // }
@@ -21,7 +23,8 @@ class Navbar extends Component {
         {/* <h1 className="navbar-logo">SURYAPUTRA</h1> */}
         {/* <img className="navbar-logo" src={img1} alt="Logo" /> */}
         <div className="logo">
-            <img src={img1} alt="This is the logo"/>
+          <Link to='/'> <img src={img1} alt="This is the logo"/>
+</Link>
         </div>
     
         {/* <p>SECURITY SERVICES PRIVATE LIMITED</p> */}
